@@ -10,12 +10,15 @@ const countDown = ()=>{
         seconds.value =0
     }else if(seconds.value != 0){
         seconds.value --
+        secss.innerHTML =`${seconds.value}`
     }else if(minute.value != 0 && seconds.value == 0){
         seconds.value = 59
         minute.value --
+        mins.innerHTML =`${minute.value}`
     }else if(hour.value != 0 && minute.value == 0){
         minute.value = 60
         hour.value --
+        hrss.innerHTML =`${hour.value}`
     }
 }
 const stopCount = ()=>{
