@@ -5,9 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <center>
+    <section style="background-color: #081023; height: 100vh;">
+        <div style="padding-top: 100px;">
+            <div style="background-color: #3d3159; height: 50vh; width: 40%; margin: auto;  box-shadow: 5px 5px 10px rgba(134, 116, 116, 0.4);">
+                <div style="padding-top: 150px; display: flex; justify-content: center; gap: 70px;">
+                    <h3 style="color: white;">Hours</h3>
+                    <h3 style="color: white;">Minutes</h3>
+                    <h3 style="color: white;">Seconds</h3>
+                </div>
+                <div style="padding-top: 0px; display: flex; justify-content: center; gap: 50px;">
+                    <input type="number" style="border: 0; outline: none; width: 12%; height: 70px; border-radius: 50%; font-size: 3em;">
+                    <input type="number" style="border: 0; outline: none; width: 12%; height: 70px; border-radius: 50%; font-size: 3em;">
+                    <input type="number" style="border: 0; outline: none; width: 12%; height: 70px; border-radius: 50%; font-size: 3em;">
+                </div>
+            </div>
+            <div style="background-color: #3d3054; height: 20vh; width: 60%; margin: auto; margin-top: 50px; display: flex; gap: 100px; justify-content: space-evenly; box-shadow: 5px 5px 10px rgba(134, 116, 116, 0.4);">
+                <div>
+                    <h1>00</h1>
+                    <p>Hours</p>
+                </div>
+                <div>
+                    <h1>00</h1>
+                    <p>Minutes</p>
+                </div>
+                <div>
+                    <h1>00</h1>
+                    <p>Seconds</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- <center>
         <div>
             <input type="number" id="hour">
             <input type="number" id="minute">
@@ -15,9 +50,9 @@
             <button onclick="countDown()">COUNTDOWN</button>
             <button onclick="stopCount()">COUNTDOWN</button>
         </div>
-    </center>
+    </center> -->
 
 
-    <script src="countdown.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
