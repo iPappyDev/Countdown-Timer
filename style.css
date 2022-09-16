@@ -6,6 +6,13 @@ section{
     background-color: #081023; 
     height: 100vh;
 }
+section h1{
+    display: flex;
+    justify-content: center;
+}
+#secH1{
+    font-size: 2em;
+}
 .firstDiv{
     padding-top: 100px;
 }
@@ -25,7 +32,7 @@ section{
     box-shadow: 5px 5px 10px rgba(134, 116, 116, 0.4);
 }
 .innerFirstDiv{
-    padding-top: 150px;
+    padding-top: 100px;
     display: flex;
     justify-content: center;
     gap: 70px;
@@ -40,6 +47,12 @@ section{
     display: flex;
     justify-content: center;
     gap: 50px;
+}
+.botton{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 30px;
 }
 input{
     border: 0; 
@@ -57,4 +70,10 @@ h3{
 }
 h1{
     color: white;
+}
+button{
+    font-size: 1.5em;
+    background-color: #d8676d;
+    color: white;
+    border: none;
 }

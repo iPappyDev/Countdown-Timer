@@ -9,6 +9,7 @@
 </head>
 <body>
     <section>
+        <h1 id="secH1">COUNTDOWN TIMER</h1>
         <div class="firstDiv">
             <div id="innerFirstDiv">
                 <div class="innerFirstDiv">
@@ -17,9 +18,21 @@
                     <h3>Seconds</h3>
                 </div>
                 <div class="innerSecondDiv">
-                    <input type="number" id="hour">
-                    <input type="number" id="minute">
-                    <input type="number" id="seconds">
+                    <input type="number" placeholder="00" id="hour">
+                    <input type="number" placeholder="00" id="minute">
+                    <input type="number" placeholder="00" id="seconds">
+                </div>
+                <div class="botton">
+                    <button onclick="countDown()">CountDown 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
+                        </svg></button>
+                    <button onclick="stopCount()">Reset
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-clockwise" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z"/>
+                            <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z"/>
+                        </svg>
+                    </button>
                 </div>
             </div>
             <div class="secondDiv">
@@ -33,29 +46,13 @@
                         <h3>Minutes</h3>
                     </div>
                     <div>
-                        <h1 id="secss">00</h1>
+                        <h1 id="secs">00</h1>
                         <h3>Seconds</h3>
                     </div>
                 </div>
             </div>
         </div>
-        <button onclick="countDown()">COUNTDOWN</button>
     </section>
-
-
-
-
-    <!-- <center>
-        <div>
-            <input type="number" id="hour">
-            <input type="number" id="minute">
-            <input type="number" id="seconds">
-            <button onclick="countDown()">COUNTDOWN</button>
-            <button onclick="stopCount()">COUNTDOWN</button>
-        </div>
-    </center> -->
-
-
     <script src="index.js"></script>
 </body>
 </html>
