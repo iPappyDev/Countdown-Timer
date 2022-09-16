@@ -2,3 +2,59 @@
     top: 0;
     margin: 0%;
 }
+section{
+    background-color: #081023; 
+    height: 100vh;
+}
+.firstDiv{
+    padding-top: 100px;
+}
+#innerFirstDiv{
+    background-color: #3d3159;
+    height: 50vh;
+    width: 40%;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(134, 116, 116, 0.4);
+}
+.secondDiv{
+    background-color: #3d3054;
+    height: 20vh;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 5px 5px 10px rgba(134, 116, 116, 0.4);
+}
+.innerFirstDiv{
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+#innerSecondDiv{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 35px;
+}
+.innerSecondDiv{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+input{
+    border: 0; 
+    outline: none; 
+    width: 12%; 
+    height: 70px; 
+    border-radius: 50%; 
+    font-size: 3em;
+}
+h1{
+    font-size: 4em;
+}
+h3{
+    color: white;
+}
+h1{
+    color: white;
+}
