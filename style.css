@@ -23,6 +23,12 @@ section h1{
     margin: auto;
     box-shadow: 5px 5px 10px rgba(134, 116, 116, 0.4);
 }
+.innerFirstDiv{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
 .secondDiv{
     background-color: #3d3054;
     height: 20vh;
@@ -31,12 +37,7 @@ section h1{
     margin-top: 50px;
     box-shadow: 5px 5px 10px rgba(134, 116, 116, 0.4);
 }
-.innerFirstDiv{
-    padding-top: 100px;
-    display: flex;
-    justify-content: center;
-    gap: 70px;
-}
+
 #innerSecondDiv{
     display: flex;
     gap: 50px;
@@ -76,4 +77,90 @@ button{
     background-color: #d8676d;
     color: white;
     border: none;
+}
+@media all and (min-width:320px) and (max-width:425px){
+    section h1{
+        padding-top: 50px;
+    }
+    #secH1{
+        font-size: 1.5em;
+    }
+    #innerFirstDiv{
+        height: 40vh;
+        width: 70%;
+    }
+    .innerFirstDiv{
+        gap: 10px;
+        padding-top: 70px;
+    }
+    .innerSecondDiv{
+        gap: 35px;
+    }
+    input{
+        width: 15%; 
+        height: 40px; 
+        font-size: 1.5em;
+    }
+    .secondDiv{
+        height: 10vh;
+        width: 80%;
+        margin-top: 70px;
+    }
+    .botton{
+        flex-direction: column;
+        margin-top: 80px;
+        width: 50%;
+        margin-left: 70px;
+    }
+    button{
+        font-size: 1.2em;
+    }
+    #innerSecondDiv{
+        gap: 20px;
+        padding-top: 0px;
+    }
+    h1{
+        font-size: 3em;
+    }
+}
+@media all and (min-width:426px) and (max-width:768px){
+    section h1{
+        padding-top: 50px;
+    }
+    #secH1{
+        font-size: 2em;
+    }
+    #innerFirstDiv{
+        height: 50vh;
+        width: 50%;
+    }
+    .innerFirstDiv{
+        padding-top: 100px;
+        gap: 50px;
+    }
+    .innerSecondDiv{
+        gap: 60px;
+    }
+    input{
+        width: 14%; 
+    }
+    .secondDiv{
+        height: 16vh;
+        width: 75%;
+    }
+    #innerSecondDiv{
+        padding-top: 0px;
+    }
+    .botton{
+        flex-direction: column;
+        margin-top: 80px;
+        width: 40%;
+        margin-left: 125px;
+    }
+    button{
+        font-size: 1.2em;
+    }
+    h1{
+        font-size: 3.5em;
+    }
 }
